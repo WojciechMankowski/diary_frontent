@@ -20,54 +20,55 @@
   </head> 
   <body>
     <div class="container">
-        <h1 class="navbar navbar-toggleable-md  navbar-light bg-warning" id="logo">
-           Terapia społeczna 
-        </h1>
-        <nav class="navbar navbar-toggleable-md  navbar-light bg-warning ">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Pokaż lub ukryj nawigację">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse" id="mainNavigation">
-              <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="index.html">HOME <span class="sr-only">(jesteś tutaj)</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="dziennik.html">Dziennik</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="que.html">FAQ</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="">Zaloguj się</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="zaloguj_sie.html">Wyloguj się</a>
-                </li>
-              </ul>
-          </div>
-        </nav>
+      <h1 class="navbar navbar-toggleable-md  navbar-light bg-warning" id="logo">
+        Terapia społeczna 
+     </h1>
+     <nav class="navbar navbar-toggleable-md  navbar-light bg-warning ">
+       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Pokaż lub ukryj nawigację">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       
+       <div class="collapse navbar-collapse" id="mainNavigation">
+           <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                   <a class="nav-link" href="index.html">HOME <span class="sr-only">(jesteś tutaj)</span></a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="dziennik.html">Dziennik</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="que.html">FAQ</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="zaloguj_sie.html">Zaloguj się</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="">Wyloguj się</a>
+             </li>
+           </ul>
+       </div>
+     </nav>
         <div id="main_box">
-          <article id="main">
-            <form action="" method="POST" id="form" class="form-group align-items-center">
-              <label for="activite"> Aktwyność: 
-                 <input type="text" name="activite" id="activ">    
-              </label>
-            <label for="emocj"> Nastrój: 
-              <input type="text" name="emocj" id="emocj">
-            </label>
-            <input type="submit" value="Zapisz" class="btn  btn-warning " id="btn">
-            <a href="" class="link-dark">
-              <p>Zobacz swoje wpisy</p>
-              </a>
-            <a href="" class="nav-link"> 
-              <p>Pobierz swoje wpisy</p>
-              </a>
-            
-            
-         </article>
- 
+           
+              <article id="main">
+                <h3>Logowanie</h3>
+                <form action="" method="POST" id="form" class="form-group align-items-center">
+                  <label for="">Użytkownik: <br></label>
+                      <input type="text" name="user" id="id_username">
+                  
+                  <label for="">
+                      Hasło: <br></label>
+                      <input type="password" name="password" id="id_password">
+                  <br>
+                  <input type="submit" value="Zaloguj się" class="btn  btn-warning " id="btn">
+                  <p>
+                    Jeśli nie posiadaż konta to załóż klikając 
+                    <a href="register.html">tutaj</a>
+                </p>
+                  
+                  
+                </form>
+              </article>
         </div>
         <footer class="text-center" id="footer">
           <div>
